@@ -1,0 +1,78 @@
+
+.background {
+    background-image: url(forest.jpg);
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* Navbar container */
+.navbar navbar-expand-lg navbar-dark bg-dark {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar navbar-expand-lg navbar-dark bg-dark a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-item dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.nav-item dropdown .nav-link dropdown-toggle {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #808080;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-menu a {
+    float: none;
+    color: blue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+.CheckBoxList1 {
+    font-family: "Comic Sans MS";
+    font-size: medium;
+    vertical-align: middle;
+    color: #FFFF00;
+    text-align: center;
+}
